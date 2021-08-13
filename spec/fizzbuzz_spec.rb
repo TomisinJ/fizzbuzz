@@ -9,4 +9,7 @@ describe "fizzbuzz" do
   it "if 15 returns fizzbuzz" do
     expect(fizzbuzz(15)).to eq("fizzbuzz")
   end
+  it "if 7 returns 7" do
+    expect(fizzbuzz(7)).to eq(7)
+  end
 end
